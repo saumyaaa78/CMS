@@ -4,8 +4,6 @@
   <img src="./frontend/assets/logo.png" width="120" alt="Cleanza Logo">
 </p>
 
-<h1 align="center">Cleanza CMS</h1>
-
 <p align="center">
   ⚡ High-Performance CMS & Workflow Management Platform
 </p>
