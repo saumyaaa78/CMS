@@ -1,7 +1,7 @@
 # 🚀 Cleanza CMS
 
 <p align="center">
-  <img src="assets/logo.png" width="120" alt="Cleanza Logo">
+  <img src="front/assets/logo.png" width="120" alt="Cleanza Logo">
 </p>
 
 <h1 align="center">Cleanza CMS</h1>
