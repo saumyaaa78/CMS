@@ -1,7 +1,7 @@
 # 🚀 Cleanza CMS
 
 <p align="center">
-  <img src="frontend/assets/logo.png" width="120" alt="Cleanza Logo">
+  <img src="assets/logo.png" width="120" alt="Cleanza Logo">
 </p>
 
 <h1 align="center">Cleanza CMS</h1>
@@ -11,36 +11,36 @@
 </p>
 
 <p align="center">
-  Built for scalable operations, large datasets, and modern workflow management.
+  Built for scalable operations, modern workflows, and large dataset management.
 </p>
 
 ---
 
-## 📌 Overview
+# 📌 Overview
 
-Cleanza is a scalable CMS platform engineered to manage high-volume datasets, workflow automation, analytics, and operational processes with speed and efficiency.
+Cleanza is a scalable CMS platform designed to manage high-volume datasets, workflow automation, analytics, and operational processes efficiently.
 
-Designed with a modular FastAPI backend and a modern frontend architecture, the platform delivers a responsive desktop-inspired experience optimized for real-world administrative and data-intensive environments.
+The project combines a FastAPI backend with a modern frontend architecture to deliver fast, responsive, and maintainable workflow management tools.
 
 ---
 
-## ✨ Features
+# ✨ Features
 
 - 📂 Chunk-based Excel & CSV processing
-- ⚡ High-speed large dataset handling
-- 🗂 Bulk filtering and record operations
-- 📊 Analytics and reporting modules
-- 🔌 FastAPI-powered backend services
-- 🎨 Responsive admin dashboard UI
-- 📤 Export and workflow utilities
+- ⚡ Large-scale dataset handling
+- 🗂 Bulk filtering and operations
+- 📊 Analytics & reporting modules
+- 🔌 FastAPI-powered backend
+- 🎨 Modern responsive dashboard
+- 📤 Export & workflow utilities
 - 🧠 Optimized memory-efficient processing
-- 🏗 Modular and scalable architecture
+- 🏗 Modular scalable architecture
 
 ---
 
-## 🛠 Tech Stack
+# 🛠 Tech Stack
 
-### 🎨 Frontend
+## 🎨 Frontend
 - React.js
 - JavaScript
 - HTML5
@@ -49,7 +49,7 @@ Designed with a modular FastAPI backend and a modern frontend architecture, the 
 - Chart.js
 - Vite
 
-### ⚙️ Backend
+## ⚙️ Backend
 - Python
 - FastAPI
 - Pandas
@@ -57,37 +57,35 @@ Designed with a modular FastAPI backend and a modern frontend architecture, the 
 
 ---
 
-## 📁 Project Structure
+# 📁 Project Structure
 
 ```bash
 Cleanza/
 │
 ├── backend/
 │   ├── app/
-│   ├── cleanza_venv/  -----> Your environment
 │   ├── temp_uploads/
-│   ├── .env
-│   └── requirements.txt
+│   ├── requirements.txt
+│   └── .env
 │
 ├── frontend/
 │   ├── assets/
 │   ├── css/
 │   ├── js/
-│   ├── node_modules/
 │   ├── index.html
 │   ├── package.json
-│   └── vite.config.js
+│   ├── package-lock.json
+│   ├── vite.config.js
+│   └── README.md
 │
-├── storage/
-├── temp_uploads/
 └── README.md
 ```
 
 ---
 
-## ⚙️ Installation
+# ⚙️ Getting Started
 
-### 📥 Clone Repository
+## 1️⃣ Clone Repository
 
 ```bash
 git clone https://github.com/EzioAman/Cleanza.git
@@ -96,10 +94,45 @@ cd Cleanza
 
 ---
 
-### 🔧 Backend Setup
+# 🔧 Frontend Setup
+
+Move into frontend folder:
+
+```bash
+cd frontend
+```
+
+Install dependencies:
+
+```bash
+npm install
+```
+
+Start development server:
+
+```bash
+npm run dev
+```
+
+Frontend will run on:
+
+```bash
+http://localhost:5173
+```
+
+---
+
+# ⚙️ Backend Setup
+
+Open another terminal:
 
 ```bash
 cd backend
+```
+
+Install Python dependencies:
+
+```bash
 pip install -r requirements.txt
 ```
 
@@ -109,37 +142,51 @@ Run backend server:
 uvicorn app.main:app --reload
 ```
 
----
-
-### 💻 Frontend Setup
+Backend will run on:
 
 ```bash
-cd frontend
+http://127.0.0.1:8000
+```
+
+---
+
+# 📦 Important Notes
+
+Do NOT upload these folders/files to GitHub:
+
+```bash
+node_modules/
+cleanza_venv/
+.env
+__pycache__/
+```
+
+Install dependencies locally using:
+
+```bash
 npm install
-npm run dev
 ```
 
 ---
 
-## 🎯 Design Goals
+# 🎯 Design Goals
 
-- 📈 Scalable system architecture
-- 🧩 Clean modular structure
-- ⚡ Efficient memory utilization
+- 📈 Scalable architecture
+- ⚡ Fast dataset operations
+- 🧩 Modular code structure
+- 🛡 Maintainable system design
 - 🏭 Production-oriented workflows
-- 🚀 Fast dataset operations
-- 🛡 Maintainable codebase
 
 ---
 
-## 📌 Status
+# 🚧 Status
 
 ```bash
-🚧 Active Development
+Active Development
 ```
 
 ---
 
-## 📄 License
+# 📄 License
 
-This project is currently maintained for development and portfolio purposes.
+This project is maintained for development and portfolio purposes.
