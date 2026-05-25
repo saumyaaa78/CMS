@@ -1,4 +1,4 @@
-# Cleanza CMS
+# 🚀 Cleanza CMS
 
 <p align="center">
   <img src="frontend/assets/logo.png" width="120" alt="Cleanza Logo">
@@ -7,54 +7,57 @@
 <h1 align="center">Cleanza CMS</h1>
 
 <p align="center">
-  High-Performance CMS & Workflow Management Platform
+  ⚡ High-Performance CMS & Workflow Management Platform
 </p>
 
 <p align="center">
-  Built for large-scale educational and operational data workflows.
+  Built for scalable operations, large datasets, and modern workflow management.
 </p>
 
 ---
 
-## Overview
+## 📌 Overview
 
-Cleanza is a scalable CMS platform engineered to handle high-volume datasets, workflow automation, and operational management efficiently. The system is designed with a strong focus on performance, maintainability, and real-world administrative workflows.
+Cleanza is a scalable CMS platform engineered to manage high-volume datasets, workflow automation, analytics, and operational processes with speed and efficiency.
 
-Built using a modular FastAPI backend and a responsive frontend architecture, Cleanza streamlines analytics, reporting, bulk data operations, and large dataset management through a modern desktop-inspired interface.
-
----
-
-## Features
-
-- Chunk-based Excel & CSV processing
-- Large-scale dataset handling
-- Bulk filtering and record operations
-- Analytics and reporting modules
-- FastAPI-powered backend services
-- Responsive admin dashboard UI
-- Export and workflow utilities
-- Optimized memory-efficient processing
-- Modular and scalable architecture
+Designed with a modular FastAPI backend and a modern frontend architecture, the platform delivers a responsive desktop-inspired experience optimized for real-world administrative and data-intensive environments.
 
 ---
 
-## Tech Stack
+## ✨ Features
 
-### Backend
+- 📂 Chunk-based Excel & CSV processing
+- ⚡ High-speed large dataset handling
+- 🗂 Bulk filtering and record operations
+- 📊 Analytics and reporting modules
+- 🔌 FastAPI-powered backend services
+- 🎨 Responsive admin dashboard UI
+- 📤 Export and workflow utilities
+- 🧠 Optimized memory-efficient processing
+- 🏗 Modular and scalable architecture
+
+---
+
+## 🛠 Tech Stack
+
+### 🎨 Frontend
+- React.js
+- JavaScript
+- HTML5
+- CSS3
+- Bootstrap 5
+- Chart.js
+- Vite
+
+### ⚙️ Backend
 - Python
 - FastAPI
 - Pandas
-
-### Frontend
-- HTML5
-- CSS3
-- JavaScript
-- Bootstrap
-- Chart.js
+- Uvicorn
 
 ---
 
-## Project Structure
+## 📁 Project Structure
 
 ```bash
 Cleanza/
@@ -82,9 +85,9 @@ Cleanza/
 
 ---
 
-## Installation
+## ⚙️ Installation
 
-### Clone Repository
+### 📥 Clone Repository
 
 ```bash
 git clone https://github.com/EzioAman/Cleanza.git
@@ -93,7 +96,7 @@ cd Cleanza
 
 ---
 
-### Backend Setup
+### 🔧 Backend Setup
 
 ```bash
 cd backend
@@ -108,7 +111,7 @@ uvicorn app.main:app --reload
 
 ---
 
-### Frontend Setup
+### 💻 Frontend Setup
 
 ```bash
 cd frontend
@@ -118,25 +121,25 @@ npm run dev
 
 ---
 
-## Design Goals
+## 🎯 Design Goals
 
-- Scalable system architecture
-- Clean modular structure
-- Efficient memory utilization
-- Production-oriented workflows
-- Fast dataset operations
-- Maintainable codebase
+- 📈 Scalable system architecture
+- 🧩 Clean modular structure
+- ⚡ Efficient memory utilization
+- 🏭 Production-oriented workflows
+- 🚀 Fast dataset operations
+- 🛡 Maintainable codebase
 
 ---
 
-## Status
+## 📌 Status
 
 ```bash
-Active Development
+🚧 Active Development
 ```
 
 ---
 
-## License
+## 📄 License
 
-This project is currently private and maintained for development purposes.
+This project is currently maintained for development and portfolio purposes.
