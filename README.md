@@ -64,7 +64,7 @@ Cleanza/
 │
 ├── backend/
 │   ├── app/
-│   ├── cleanza_venv/
+│   ├── cleanza_venv/  -----> Your environment
 │   ├── temp_uploads/
 │   ├── .env
 │   └── requirements.txt
